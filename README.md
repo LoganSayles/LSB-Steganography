@@ -55,7 +55,7 @@ USAGE
 
 python3 main.py -e -i image_name.png -t "enter text here" -o 300 -ck "Enter Key here"
 ```
-![vmplayer_49E3bchDtp](https://github.coventry.ac.uk/storage/user/5742/files/5df929e6-ed89-4463-be16-63b8da3500b8)
+<p align="center"><img width="800" height="181" alt="4" src="https://github.com/user-attachments/assets/2a56ff4e-e48c-4170-915f-72d796b00ff5" /></p>
 
 ### Decoding
 
