@@ -29,7 +29,8 @@ To run the tests that come with this software run the following command:
 ```
 python3 unit-tests.py
 ```
-![vmplayer_6PledzZink](https://github.coventry.ac.uk/storage/user/5742/files/4a118ef1-2c84-4abd-b9b9-51d3e4176e70)
+
+<p align="center"><img width="800" height="181" alt="3" src="https://github.com/user-attachments/assets/cb037699-86f6-44b4-8a35-8a997b91be38" /></p>
 
 ## Deployment
 
