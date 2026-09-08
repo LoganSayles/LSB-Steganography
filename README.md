@@ -85,4 +85,4 @@ This application works by converting all the bytes in an image array to binary, 
 
 ## Authors
 
-* **Logan Sayles** - *Primary and Only Contributer*
+* **Logan Sayles** - *Primary Contributer*
