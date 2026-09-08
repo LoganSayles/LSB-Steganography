@@ -10,7 +10,7 @@ To get started, start by cloning this GitHub repository using the following:
 git clone https://github.com/LoganSayles/LSB-Steganography.git
 ```
 
-![vmplayer_LZSrzFpDdq](https://github.coventry.ac.uk/storage/user/5742/files/f865426a-65b7-4bcd-86a0-22c254e1b1c7)
+<p align="center"><img width="800" height="181" alt="1" src="https://github.com/user-attachments/assets/cd7bbfc3-7680-48e0-b430-b2ce3cb54a94" /></p>
 
 ### Prerequisites
 
