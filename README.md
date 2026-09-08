@@ -1,6 +1,6 @@
 # LSB Steganography
 
-This tool allows for the secure encryption and then encoding of text within an image using binary steganography as well as the decoding and decrypting of hidden messages.
+This tool allows for the secure encryption and encoding of text within an image using binary steganography, as well as the retrieval, decoding and decryption of hidden messages.
 
 ## Getting Started
 
