@@ -34,7 +34,7 @@ python3 unit-tests.py
 
 ## Deployment
 
-To begin, you will need an image to encode. For this tool any .png file format should work fine, anything else is not supported due to the lossy compression method used by JPEG
+To begin, you will need an image to encode. For this tool, any .png file format should work fine; anything such as JPEG is not supported due to the lossy compression method
 
 ### Encoding
 
