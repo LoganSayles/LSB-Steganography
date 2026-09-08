@@ -20,7 +20,7 @@ To use this software you will need some required python modules, to quickly inst
 pip3 install -r requirements.txt
 ```
 
-![vmplayer_j94hPsIrrQ](https://github.coventry.ac.uk/storage/user/5742/files/446dbb8a-0b1a-4593-bdc2-7cd0a473cd5b)
+<p align="center"><img width="800" height="181" alt="2" src="https://github.com/user-attachments/assets/d5fcdf80-74ba-4987-a058-8876cd21dfa5" /></p>
 
 ## Running the tests
 
