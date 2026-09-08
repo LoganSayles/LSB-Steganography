@@ -7,7 +7,7 @@ This tool allows for the secure encryption and encoding of text within an image 
 To get started, start by cloning this GitHub repository using the following:
 
 ```
-git clone https://github.com/LoganSayles/Encoded-Image.git
+git clone https://github.com/LoganSayles/LSB-Steganography.git
 ```
 
 ![vmplayer_LZSrzFpDdq](https://github.coventry.ac.uk/storage/user/5742/files/f865426a-65b7-4bcd-86a0-22c254e1b1c7)
