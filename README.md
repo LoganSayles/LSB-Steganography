@@ -75,11 +75,13 @@ IMPORTANT: only one of these arguments should be specified
 -ck, --custom_key | to specify a custom key to be used
 ```
 
-![vmplayer_Ps7T72tKCa](https://github.coventry.ac.uk/storage/user/5742/files/8ebece51-ca3a-49c8-b7a7-3bfa4b02eb9b)
+<p align="center"><img width="800" height="181" alt="5" src="https://github.com/user-attachments/assets/471863a8-a61c-490e-bb7b-28996d087ddb" /></p>
 
 ## Algorithm Justification
 
-This software works by converting all the bytes in an image array to binary, then selecting each least significant bit (LSB) of each byte and replacing it with a bit from the message the user has entered. The program currently goes through the image until the offset position has been reached. Alternatively, I could have separated the RGB values into their own respective arrays; however, I believe that the efficiency of the program would have decreased as a result of more nested loops than I currently require. The method I chose for image steganography is LSB (least significant bit). I chose this method, as I knew it would be fast, simple, and adaptable. Other methods include EBE (edge-based embedding) this is where the software detects the edges of the image and encodes the data there, as well as RPE (random pixel embedding), where the data is randomly entered into the image. These alternatives are more complex and also less efficient; the aim of them is to make it harder to find the message within the image. However, due to the human eye not being able to pick up the small change in pixel colour, I believe that the method I chose best suited the software
+This application works by converting all the bytes in an image array to binary, then selecting the least significant bit (LSB) of each byte and replacing it with a bit from the message the user has entered. The program currently goes through the image until the offset position has been reached. Alternatively, I could have separated the RGB values into their own respective arrays; however, I believe that the efficiency of the application would have decreased as a result of containing more nested loops than I reasonably require. The method I chose for image steganography is LSB (least significant bit). I chose this method, as I knew it would be fast, simple, and adaptable. Other methods include EBE (edge-based embedding), where the application detects the edges of the image and encodes the data there instead, as well as RPE (random pixel embedding), where the data is randomly entered into the image. These alternatives are more complex and less efficient. The aim of the alternatives is to make it harder to find the message within the image. However, due to the human eye not being able to pick up the small change in pixel colour, I believe that the method I chose best suited the software
+
+**UPDATE:** After graduating, LLMs have become much more prominent; I believe now that RPE would be the most effective solution. This is due to the inhuman ability of LLMs to be able to see the smallest of variations within an image and thus a string of every-so-slightly changed pixels would easily be detectable.
 
 ## Authors
 
