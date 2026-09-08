@@ -7,7 +7,7 @@ This tool allows for the secure encryption and encoding of text within an image 
 To get started, start by cloning this github repository. To do this either download the zip file on this repository or if you're using a CLI enter the following command:
 
 ```
-git clone https://github.coventry.ac.uk/5062CEM-23-24/12226728_CW1.git
+git clone https://github.com/LoganSayles/Encoded-Image.git
 ```
 
 ![vmplayer_LZSrzFpDdq](https://github.coventry.ac.uk/storage/user/5742/files/f865426a-65b7-4bcd-86a0-22c254e1b1c7)
