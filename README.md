@@ -38,7 +38,7 @@ To begin, you will need an image to encode. For this tool any .png file format s
 
 ### Encoding
 
-Once you have an image to encode the following parameters can be specified.
+Once you have an image to encode, the following parameters can be specified.
 
 ```
 REQUIRED ARGUMENTS
@@ -47,7 +47,7 @@ REQUIRED ARGUMENTS
 -t, --text        | to specify the text you would like to encode
 
 OPTIONAL ARGUMENTS
--o, --ofset       | to specify the amount of bytes to offset the text by
+-o, --offset       | to specify the number of bytes to offset the text by
 -ck, --custom_key | to specify a custom key to be used
 ```
 ```
@@ -59,7 +59,7 @@ python3 main.py -e -i image_name.png -t "enter text here" -o 300 -ck "Enter Key 
 
 ### Decoding
 
-Once you have an image to decode the following parameters can be specified
+Once you have an image to decode, the following parameters can be specified
 
 ```
 REQUIRED ARGUMENTS
@@ -69,7 +69,7 @@ REQUIRED ARGUMENTS
 ```
 GROUPED ARGUMENTS
 
-IMPORTANT: only one of these arguements should be specified
+IMPORTANT: only one of these arguments should be specified
 
 -k, --key         | to specify the key to decode the image
 -ck, --custom_key | to specify a custom key to be used
@@ -79,7 +79,7 @@ IMPORTANT: only one of these arguements should be specified
 
 ## Algorithm Justification
 
-This software works by converting all the bytes in an image array to binary then selecting each least significant bit (LSB) of each byte and replacing it with a bit from the message the user has entered. The program currently goes through the image until the offset position has been reach. Altnernatively, I could have seperated the RGB values into their own respective arrays, however I believe that the efficiency of the program would have decreased as a result of more nested loops then I currently require. The method I chose of image steganography is LSB (least significant bit) I chose this method, as I knew it would be fast, simple and adaptable. Other methods include EBE (edge based embedding) this is where the software detects the edges of the image and encodes the data there as well as RPE (random pixel embedding) where the data is randomly entered into the image. These alternatives are more complex and also less efficient, the aim of them is to make it harder to find the message within the image however due to the human eye not being able to pickup the small change in pixel colour I believe that the method I chose best suited the software
+This software works by converting all the bytes in an image array to binary, then selecting each least significant bit (LSB) of each byte and replacing it with a bit from the message the user has entered. The program currently goes through the image until the offset position has been reached. Alternatively, I could have separated the RGB values into their own respective arrays; however, I believe that the efficiency of the program would have decreased as a result of more nested loops than I currently require. The method I chose for image steganography is LSB (least significant bit). I chose this method, as I knew it would be fast, simple, and adaptable. Other methods include EBE (edge-based embedding) this is where the software detects the edges of the image and encodes the data there, as well as RPE (random pixel embedding), where the data is randomly entered into the image. These alternatives are more complex and also less efficient; the aim of them is to make it harder to find the message within the image. However, due to the human eye not being able to pick up the small change in pixel colour, I believe that the method I chose best suited the software
 
 ## Authors
 
